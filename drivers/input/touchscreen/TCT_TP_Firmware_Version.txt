@@ -1,0 +1,11 @@
+PROJECT=Alto5_Premium
+	TP_IC:	FT5436	Laibao	black TP, version=v15
+		GT9157	Truly	white TP, version=0x1079, ConfigVersion=0x45
+
+PROJECT=Alto5_Global
+	TP_IC:	Msg2138	Each	white TP, version=0510
+		FT6436	Junda	both	, version=0x11
+
+PROJECT=Alto4_Global
+	TP_IC:	FT6336	Mutto	black TP, version=V1A
+		Msg2138	Each	black TP, version=005014

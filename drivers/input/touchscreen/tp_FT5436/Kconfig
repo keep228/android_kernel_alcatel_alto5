@@ -1,0 +1,23 @@
+config TOUCHSCREEN_FT5436            
+       tristate "MSG touchscreens"
+       depends on I2C
+       help
+         Say Y here if you have a FT touchscreen on TCL 
+         If unsure, say N.
+         To compile this driver as a module, choose M here: the
+         module will be called FT.
+
+config FT6336_TOUCHPANEL_USB_DETECT
+	tristate "FocalTech USB DETECT"
+	depends on TOUCHSCREEN_FT5436
+	help
+	  This is application debug interface support for FocalTech
+	  touchscreens.
+
+	  Say Y here if you want to have a Android app debug interface
+	  to your system.
+
+	  If unsure, say N.
+
+	  To compile this driver as a module, choose M here: the
+	  module will be called FT.
